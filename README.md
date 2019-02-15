@@ -14,8 +14,8 @@ Add options to a list of options, then click the button "What should i do" and t
 
 ### Prerequisites
 
-- node
-- npm
+- node v10.12.0
+- npm v6.8.0
 
 install node with the terminal on a mac
 ```
@@ -33,8 +33,7 @@ install npm with the terminal on a mac
 ## Run Indecision-app locally
 
 ```
-> cd <"indecision-app_directory">/src
-> cd src
+> cd <indecision-app_directory>/src
 > npm run dev-server
 ```
 ## Example app on Heroku
