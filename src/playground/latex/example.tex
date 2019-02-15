@@ -1,0 +1,22 @@
+\documentclass{article}
+    % General document formatting
+    \usepackage[margin=0.7in]{geometry}
+    \usepackage[parfill]{parskip}
+    \usepackage[utf8]{inputenc}
+
+\begin{document}
+
+const square = function (x) {
+    return x * x;
+};
+
+// es6 arrow functions are allways anonymous, you can't name it.
+// if you want to reference to a arrow function later, put it inside a variable as you can see below.
+const squareArrow = (x) => {
+    return x * x;
+};
+
+console.log(square(5));
+console.log(squareArrow(8));
+
+\end{document}
