@@ -33,7 +33,7 @@ install npm with the terminal on a mac
 ## Run Indecision-app locally
 
 ```
-> cd indecision-app_directory
+> cd <"indecision-app_directory">/src
 > cd src
 > npm run dev-server
 ```
