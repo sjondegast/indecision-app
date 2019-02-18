@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack",
-    "build:prod": "webpack -p --env.production",
+    "build:prod": "webpack -p --env.production ",
     "live-server": "live-server public/",
     "dev-server": "webpack-dev-server"
   },
