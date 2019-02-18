@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env.production",
     "live-server": "live-server public/",
     "dev-server": "webpack-dev-server"
   },
