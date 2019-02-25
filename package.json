@@ -8,7 +8,8 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "live-server": "live-server public/",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "Sjon de Gast",
   "license": "ISC",
