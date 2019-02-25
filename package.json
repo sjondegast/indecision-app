@@ -13,6 +13,7 @@
     "build:prod": "webpack -p --env production",
     "live-server": "live-server public/",
     "dev-server": "webpack-dev-server",
+    "start": "node server/server.js",
     "heroku-postbuild": "npm run build:prod"
   },
   "author": "Sjon de Gast",
